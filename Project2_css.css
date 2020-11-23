@@ -1,0 +1,175 @@
+
+  h1
+  {
+font-size: 40px;
+color: hsl(300, 43%, 22%);
+font-family:  Spartan;
+margin-left: 5%;
+width: 20vw;
+  }
+
+.words
+{
+width: 19vw;
+}
+.margin1
+{
+margin-left: -3%;
+margin-top: 2%;
+}
+.margin2
+{
+margin-left: -3%;
+margin-top: 5%;
+}
+.text1
+{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+margin-top: 10%;
+}
+.square
+{
+background-color: hsl(300, 43%, 22%);
+color: hsl(300, 24%, 96%);
+border-radius: 3%;
+height: 160px;
+width: 320px;
+text-align: left;
+padding-left: 4%;
+padding-top: 3%;
+padding-bottom: 3%;
+
+}
+
+.box1
+{
+margin-left: 60%;
+margin-right: 7%;
+margin-top: -15%;
+border-radius: 5%;
+background-color:  hsl(300, 24%, 96%);
+padding-right: 100px;
+padding-top: 10px;
+padding-bottom: 10px;
+text-align: right;
+color:  hsl(300, 43%, 22%);
+}
+.box2
+{
+margin-top: -0.5%;
+margin-left: 62%;
+margin-right: 5%;
+border-radius: 5%;
+background-color:  hsl(300, 24%, 96%);
+padding-right: 95px;
+padding-top: 10px;
+padding-bottom: 10px;
+text-align: right;
+color:  hsl(300, 43%, 22%);
+}
+.box3
+{
+margin-top: -0.5%;
+margin-left: 64%;
+margin-right: 3%;
+border-radius: 5%;
+background-color:  hsl(300, 24%, 96%);
+padding-right: 95px;
+padding-top: 10px;
+padding-bottom: 10px;
+text-align: right;
+color:  hsl(300, 43%, 22%);
+}
+
+#paint
+{
+color: hsl(333, 80%, 67%) ;
+
+}
+.dot
+{
+margin-top: -1%;
+margin-left: 5%;
+width: 30vw;
+color:  hsl(303, 10%, 53%);
+}
+.picture
+{
+border-radius: 50%;
+
+}
+figcaption
+{
+margin-top: -20%;
+margin-left: 40%;
+line-height: 150%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+   
+     @media(max-width: 425px )
+     {
+       .text1 
+       {
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+margin-bottom: 50px;
+       }
+       h1 
+       {
+         text-align: center;
+         width: fit-content ;
+       }
+       .dot
+      {
+        text-align: center;
+        width: fit-content;
+      }
+      .box1
+      {
+        text-align: center;
+        padding: 10px 95px 10px 0px ;
+       margin: auto;
+       margin-bottom: 50px;
+      }
+
+      .box2
+      {
+        padding: 10px 95px 10px 0px ;
+       margin: auto;
+        margin-bottom: 50px;
+      }
+      .box3
+      {
+        padding: 10px 95px 10px 0px ;
+       margin: auto;
+        margin-bottom: 50px;
+      }
+      .square
+      {
+        width: 85%;
+        height: 200px;
+        margin: 0px 10px 10px 10px;
+        padding-right: 5px;
+      }
+    
+      .words
+      {
+        width: fit-content;
+      }
+      p.img 
+      {
+        line-break: auto;
+      }
+     }
+    
